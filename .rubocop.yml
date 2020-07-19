@@ -1,0 +1,26 @@
+AllCops:
+  DisabledByDefault: enable
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - '.git/**/*'
+    - 'bin/*'
+  NewCops: enable
+  TargetRubyVersion: 2.7.1
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Layout/IndentationWidth:
+  Enabled: true
+
+Layout/TrailingEmptyLines:
+  Enabled: true
+
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
